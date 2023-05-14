@@ -1,3 +1,8 @@
+function move(image, left, bottom){
+    image.style.position = 'fixed'
+    image.style.left = left + 'px'
+    image.style.bottom = bottom + 'px'
+}
 function newImage(url, left, bottom){
     let image = document.createElement('img')
     image.src = url
